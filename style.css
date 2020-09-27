@@ -166,7 +166,7 @@ img {
     .action {
         max-width: 100%;
         text-align: center;
-        margin-left: 0px;
+        margin-left: 0px 10px;
     }
 
     .billboard-info, .money-options {
