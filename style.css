@@ -55,7 +55,7 @@ a {
 }
 
 .sign-up {
-    font-size: 1.1em;
+    font-size: 1.3em;
     padding: 10px;
     color: white;
     background-color: black;
@@ -107,6 +107,7 @@ img {
     height: 400px;
     text-align: right;
     margin-left: 100px;
+    margin-right: 100px;
 }
 
 /* money options */
@@ -120,7 +121,57 @@ img {
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 1220px) {
+    img {
+        height: 300px;
+    }
+    
+    /* hamburger menu here */
+    
+}
 
+@media only screen and (max-width: 1070px) {
+    img {
+        height: 275px;
+    }
 
+    .billboard {
+        font-size: 2.7rem;
+    }
+
+    .billboard-info {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    img {
+        height: 250px;
+    }
+
+    .billboard {
+        font-size: 2.5rem;
+    }
+
+    .billboard-info {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    img {
+        display: none;
+    }
+
+    .action {
+        max-width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .billboard-info, .money-options {
+        max-width: 100%;
+    }
+}
 
 
